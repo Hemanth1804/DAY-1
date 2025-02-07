@@ -5,7 +5,7 @@ public class pattern {
     System.out.println("Enter the size of pattern");
     int n=sc.nextInt();
     int i=0;
-    int j,k=1,l=0;
+    int j,k=1;
     for(i=0;i<n;i++){
         for(j=0;j<n-(1+i);j++){
            System.out.print(" ");
@@ -14,8 +14,7 @@ public class pattern {
         System.out.print("*");
         k--;
      }
-     k=i+3+l;
-     l++;
+     k=2*i+3;
      System.out.println("");
     }
     }
